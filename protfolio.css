@@ -3,11 +3,9 @@
 .open-sans-ag {
 				font-family: "Open Sans", sans-serif;
 				font-optical-sizing: auto;
-				font-weight: ;
 				font-style: normal;
 				font-variation-settings:
 						"width" 100;
-				color: ;
 			}
 
 body {
@@ -98,7 +96,6 @@ navbar section
 .project-content {
 	display: flex;
 	justify-content: space-between;
-	align-items: ;
 	gap: 32px;
 	margin-top: 32px;
 }
@@ -123,4 +120,57 @@ navbar section
 	padding: 10px 0px;
 	text-align: left;
 	border-bottom: 1px solid gray;
+	
+}
+
+/*about me section*/
+
+.about-me{
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+	padding: 72px 10px;
+	margin: 0 64px;
+	padding-bottom: 200px;
+}
+
+.about-content {
+	width: 600px;
+}
+
+
+/*footer section*/
+.contact-form {
+	display: flex;
+	justify-content: space-between;
+	padding: 72px 10px;
+	margin: 0 64px;
+	
+}
+
+.form-right {
+	width: 400px;
+	margin-top: 40px;
+}
+
+.label-input {
+	display: flex;
+	flex-direction: column;
+}
+
+.label-input input  {
+	background-color:#1A1A1A ;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	margin: 8px 0;
+	color: #C7C7C7;
+}
+
+.label-input textarea {
+	background-color:#1A1A1A;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	color: #C7C7C7;
 }
